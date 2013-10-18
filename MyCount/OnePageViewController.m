@@ -91,7 +91,7 @@
     
     title = [[UITextField alloc] initWithFrame:CGRectMake(offX, offY, 320 - offX *2,  40.)];
     title.placeholder = @"Click Here ";
-    title.textColor = [UIColor iOS7lightGrayColor];
+    title.textColor = [UIColor iOS7lightBlueColor];
     title.center = CGPointMake(self.view.center.x, self.view.center.y - (320 - offX*2)/2 - 40.);
     
     title.font = [UIFont systemFontOfSize:30.];
@@ -100,17 +100,17 @@
     [self.view addSubview:title];
     
     UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(offX, offY + title.bounds.size.height +  20., 320 - offX *2 , 320 - offX *2)];
-    lbl.backgroundColor = [UIColor whiteColor];
+    lbl.backgroundColor = [UIColor iOS7lightBlueColor];
     lbl.center = self.view.center;
     lbl.font = [UIFont boldSystemFontOfSize:150.];
-    lbl.textColor = [UIColor iOS7greenColor];
+    lbl.textColor = [UIColor whiteColor];
     [lbl setText:[NSString stringWithFormat:@"%lu", (unsigned long)self.count]];
     lbl.textAlignment = NSTextAlignmentCenter;
     lbl.layer.cornerRadius = lbl.bounds.size.width/2;
     countLabel = lbl;
     [self.view addSubview:countLabel];
 
-    self.view.backgroundColor =  [UIColor iOS7lightBlueColor];//[self indexColor:self.index%10];
+    self.view.backgroundColor =  [UIColor whiteColor];//[self indexColor:self.index%10];
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTap:)];
     [self.view addGestureRecognizer:tap];
