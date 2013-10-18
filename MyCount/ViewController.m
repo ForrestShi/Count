@@ -20,8 +20,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
  
-    self.addBtn.tintColor = [UIColor iOS7orangeColor];
-    self.reduceBtn.tintColor = [UIColor iOS7orangeColor];
+    self.addBtn.tintColor = [UIColor blackColor];
+    self.reduceBtn.tintColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning
