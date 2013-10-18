@@ -7,12 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "MKiCloudSync.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [MKiCloudSync start];
     return YES;
 }
 							

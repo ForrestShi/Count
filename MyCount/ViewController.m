@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+iOS7Colors.h"
 
 @interface ViewController ()
 
@@ -18,12 +19,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+ 
+    self.addBtn.tintColor = [UIColor iOS7orangeColor];
+    self.reduceBtn.tintColor = [UIColor iOS7orangeColor];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)add:(id)sender{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"AddNft" object:nil];
+}
+
+- (IBAction)reduce:(id)sender{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ReduceNft" object:nil];
 }
 
 @end

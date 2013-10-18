@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CDA3EC051809453500990E7D"
-               BuildableName = "MyCount.app"
-               BlueprintName = "MyCount"
+               BuildableName = "mycount.app"
+               BlueprintName = "mycount"
                ReferencedContainer = "container:MyCount.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDA3EC051809453500990E7D"
-            BuildableName = "MyCount.app"
-            BlueprintName = "MyCount"
+            BuildableName = "mycount.app"
+            BlueprintName = "mycount"
             ReferencedContainer = "container:MyCount.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDA3EC051809453500990E7D"
-            BuildableName = "MyCount.app"
-            BlueprintName = "MyCount"
+            BuildableName = "mycount.app"
+            BlueprintName = "mycount"
             ReferencedContainer = "container:MyCount.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDA3EC051809453500990E7D"
-            BuildableName = "MyCount.app"
-            BlueprintName = "MyCount"
+            BuildableName = "mycount.app"
+            BlueprintName = "mycount"
             ReferencedContainer = "container:MyCount.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */; };
+		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
+		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
+		CD49034818110B4B0012A7D3 /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */; };
 		CDA3EC0A1809453500990E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC091809453500990E7D /* Foundation.framework */; };
 		CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0B1809453500990E7D /* CoreGraphics.framework */; };
 		CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0D1809453500990E7D /* UIKit.framework */; };
@@ -21,6 +25,7 @@
 		CDA3EC2B1809453500990E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0D1809453500990E7D /* UIKit.framework */; };
 		CDA3EC331809453500990E7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDA3EC311809453500990E7D /* InfoPlist.strings */; };
 		CDA3EC351809453500990E7D /* MyCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA3EC341809453500990E7D /* MyCountTests.m */; };
+		CDCC912A180FBD8A008DE04F /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC9129180FBD8A008DE04F /* MKiCloudSync.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CDA3EC061809453500990E7D /* MyCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
+		CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
+		CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePageViewController.h; sourceTree = "<group>"; };
+		CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePageViewController.m; sourceTree = "<group>"; };
+		CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD490344180FC7BE0012A7D3 /* mycount.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mycount.entitlements; path = mycount/mycount.entitlements; sourceTree = "<group>"; };
+		CD49034618110B4B0012A7D3 /* UIColor+iOS7Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7Colors.h"; sourceTree = "<group>"; };
+		CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7Colors.m"; sourceTree = "<group>"; };
+		CDA3EC061809453500990E7D /* mycount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA3EC091809453500990E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDA3EC0B1809453500990E7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CDA3EC0D1809453500990E7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,8 @@
 		CDA3EC301809453500990E7D /* MyCountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyCountTests-Info.plist"; sourceTree = "<group>"; };
 		CDA3EC321809453500990E7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDA3EC341809453500990E7D /* MyCountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCountTests.m; sourceTree = "<group>"; };
+		CDCC9128180FBD8A008DE04F /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKiCloudSync.h; path = iCloud/MKiCloudSync.h; sourceTree = SOURCE_ROOT; };
+		CDCC9129180FBD8A008DE04F /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKiCloudSync.m; path = iCloud/MKiCloudSync.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */,
 				CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */,
 				CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */,
 				CDA3EC0A1809453500990E7D /* Foundation.framework in Frameworks */,
@@ -82,6 +98,7 @@
 		CDA3EBFD1809453500990E7D = {
 			isa = PBXGroup;
 			children = (
+				CD490344180FC7BE0012A7D3 /* mycount.entitlements */,
 				CDA3EC0F1809453500990E7D /* MyCount */,
 				CDA3EC2E1809453500990E7D /* MyCountTests */,
 				CDA3EC081809453500990E7D /* Frameworks */,
@@ -92,7 +109,7 @@
 		CDA3EC071809453500990E7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDA3EC061809453500990E7D /* MyCount.app */,
+				CDA3EC061809453500990E7D /* mycount.app */,
 				CDA3EC271809453500990E7D /* MyCountTests.xctest */,
 			);
 			name = Products;
@@ -101,6 +118,7 @@
 		CDA3EC081809453500990E7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */,
 				CDA3EC091809453500990E7D /* Foundation.framework */,
 				CDA3EC0B1809453500990E7D /* CoreGraphics.framework */,
 				CDA3EC0D1809453500990E7D /* UIKit.framework */,
@@ -112,6 +130,10 @@
 		CDA3EC0F1809453500990E7D /* MyCount */ = {
 			isa = PBXGroup;
 			children = (
+				CD49034618110B4B0012A7D3 /* UIColor+iOS7Colors.h */,
+				CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */,
+				CDCC9128180FBD8A008DE04F /* MKiCloudSync.h */,
+				CDCC9129180FBD8A008DE04F /* MKiCloudSync.m */,
 				CDA3EC181809453500990E7D /* AppDelegate.h */,
 				CDA3EC191809453500990E7D /* AppDelegate.m */,
 				CDA3EC1B1809453500990E7D /* Main.storyboard */,
@@ -119,6 +141,10 @@
 				CDA3EC1F1809453500990E7D /* ViewController.m */,
 				CDA3EC211809453500990E7D /* Images.xcassets */,
 				CDA3EC101809453500990E7D /* Supporting Files */,
+				CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */,
+				CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */,
+				CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */,
+				CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */,
 			);
 			path = MyCount;
 			sourceTree = "<group>";
@@ -155,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDA3EC051809453500990E7D /* MyCount */ = {
+		CDA3EC051809453500990E7D /* mycount */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "MyCount" */;
+			buildConfigurationList = CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "mycount" */;
 			buildPhases = (
 				CDA3EC021809453500990E7D /* Sources */,
 				CDA3EC031809453500990E7D /* Frameworks */,
@@ -167,9 +193,9 @@
 			);
 			dependencies = (
 			);
-			name = MyCount;
+			name = mycount;
 			productName = MyCount;
-			productReference = CDA3EC061809453500990E7D /* MyCount.app */;
+			productReference = CDA3EC061809453500990E7D /* mycount.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CDA3EC261809453500990E7D /* MyCountTests */ = {
@@ -199,6 +225,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Forrest Shi";
 				TargetAttributes = {
+					CDA3EC051809453500990E7D = {
+						DevelopmentTeam = H4K4TA6W8H;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					CDA3EC261809453500990E7D = {
 						TestTargetID = CDA3EC051809453500990E7D;
 					};
@@ -217,7 +251,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDA3EC051809453500990E7D /* MyCount */,
+				CDA3EC051809453500990E7D /* mycount */,
 				CDA3EC261809453500990E7D /* MyCountTests */,
 			);
 		};
@@ -251,7 +285,11 @@
 			files = (
 				CDA3EC201809453500990E7D /* ViewController.m in Sources */,
 				CDA3EC1A1809453500990E7D /* AppDelegate.m in Sources */,
+				CD49034818110B4B0012A7D3 /* UIColor+iOS7Colors.m in Sources */,
 				CDA3EC161809453500990E7D /* main.m in Sources */,
+				CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */,
+				CDCC912A180FBD8A008DE04F /* MKiCloudSync.m in Sources */,
+				CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +306,7 @@
 /* Begin PBXTargetDependency section */
 		CDA3EC2D1809453500990E7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDA3EC051809453500990E7D /* MyCount */;
+			target = CDA3EC051809453500990E7D /* mycount */;
 			targetProxy = CDA3EC2C1809453500990E7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -318,7 +356,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shi Lin (NER6K732V4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shi Lin (NER6K732V4)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -357,7 +396,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -376,12 +416,19 @@
 		CDA3EC391809453500990E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = mycount/mycount.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C1453D51-203D-472F-BA83-413EAC086914";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,12 +436,19 @@
 		CDA3EC3A1809453500990E7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = mycount/mycount.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C1453D51-203D-472F-BA83-413EAC086914";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -453,13 +507,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "MyCount" */ = {
+		CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "mycount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDA3EC391809453500990E7D /* Debug */,
 				CDA3EC3A1809453500990E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDA3EC3B1809453500990E7D /* Build configuration list for PBXNativeTarget "MyCountTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +523,7 @@
 				CDA3EC3D1809453500990E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

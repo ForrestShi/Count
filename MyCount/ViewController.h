@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong) IBOutlet UIButton *addBtn;
+@property (nonatomic,strong) IBOutlet UIButton *reduceBtn;
+
+- (IBAction)add:(id)sender;
+- (IBAction)reduce:(id)sender;
+
 @end
