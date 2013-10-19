@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E41D18123E93007DB44A /* AudioUtility.m */; };
+		18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B1E41F18123F18007DB44A /* AudioToolbox.framework */; };
+		18B1E4221812404D007DB44A /* count.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E4211812404D007DB44A /* count.wav */; };
+		18B1E425181241E5007DB44A /* reduce.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E423181241E5007DB44A /* reduce.wav */; };
+		18B1E426181241E5007DB44A /* add.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E424181241E5007DB44A /* add.wav */; };
+		18B1E429181243AA007DB44A /* left.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42718124321007DB44A /* left.caf */; };
+		18B1E42A181243AA007DB44A /* right.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42818124321007DB44A /* right.caf */; };
+		18B1E42C18124677007DB44A /* commit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42B18124677007DB44A /* commit.caf */; };
 		CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */; };
 		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
 		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
@@ -39,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B1E41C18123E93007DB44A /* AudioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtility.h; sourceTree = "<group>"; };
+		18B1E41D18123E93007DB44A /* AudioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUtility.m; sourceTree = "<group>"; };
+		18B1E41F18123F18007DB44A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18B1E4211812404D007DB44A /* count.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = count.wav; sourceTree = "<group>"; };
+		18B1E423181241E5007DB44A /* reduce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reduce.wav; sourceTree = "<group>"; };
+		18B1E424181241E5007DB44A /* add.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = add.wav; sourceTree = "<group>"; };
+		18B1E42718124321007DB44A /* left.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = left.caf; sourceTree = "<group>"; };
+		18B1E42818124321007DB44A /* right.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = right.caf; sourceTree = "<group>"; };
+		18B1E42B18124677007DB44A /* commit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = commit.caf; sourceTree = "<group>"; };
 		CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
 		CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
 		CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePageViewController.h; sourceTree = "<group>"; };
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */,
 				CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */,
 				CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */,
 				CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */,
@@ -98,6 +116,12 @@
 		CDA3EBFD1809453500990E7D = {
 			isa = PBXGroup;
 			children = (
+				18B1E42B18124677007DB44A /* commit.caf */,
+				18B1E42718124321007DB44A /* left.caf */,
+				18B1E42818124321007DB44A /* right.caf */,
+				18B1E423181241E5007DB44A /* reduce.wav */,
+				18B1E424181241E5007DB44A /* add.wav */,
+				18B1E4211812404D007DB44A /* count.wav */,
 				CD490344180FC7BE0012A7D3 /* mycount.entitlements */,
 				CDA3EC0F1809453500990E7D /* MyCount */,
 				CDA3EC2E1809453500990E7D /* MyCountTests */,
@@ -118,6 +142,7 @@
 		CDA3EC081809453500990E7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18B1E41F18123F18007DB44A /* AudioToolbox.framework */,
 				CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */,
 				CDA3EC091809453500990E7D /* Foundation.framework */,
 				CDA3EC0B1809453500990E7D /* CoreGraphics.framework */,
@@ -145,6 +170,8 @@
 				CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */,
 				CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */,
 				CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */,
+				18B1E41C18123E93007DB44A /* AudioUtility.h */,
+				18B1E41D18123E93007DB44A /* AudioUtility.m */,
 			);
 			path = MyCount;
 			sourceTree = "<group>";
@@ -262,8 +289,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B1E429181243AA007DB44A /* left.caf in Resources */,
+				18B1E42A181243AA007DB44A /* right.caf in Resources */,
 				CDA3EC221809453500990E7D /* Images.xcassets in Resources */,
 				CDA3EC141809453500990E7D /* InfoPlist.strings in Resources */,
+				18B1E426181241E5007DB44A /* add.wav in Resources */,
+				18B1E42C18124677007DB44A /* commit.caf in Resources */,
+				18B1E425181241E5007DB44A /* reduce.wav in Resources */,
+				18B1E4221812404D007DB44A /* count.wav in Resources */,
 				CDA3EC1D1809453500990E7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +323,7 @@
 				CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */,
 				CDCC912A180FBD8A008DE04F /* MKiCloudSync.m in Sources */,
 				CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */,
+				18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +459,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C1453D51-203D-472F-BA83-413EAC086914";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,9 +479,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C1453D51-203D-472F-BA83-413EAC086914";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};

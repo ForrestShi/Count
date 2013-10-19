@@ -9,7 +9,7 @@
 #import "OnePageViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "UIColor+iOS7Colors.h"
-
+#import "AudioUtility.h"
 
 @interface OnePageViewController ()<UITextFieldDelegate>{
     UITextField *title ;
@@ -120,6 +120,7 @@
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
+    [[AudioUtility sharedInstance] playSound:@"commit" withType:@"caf"];
     return YES;
 }
 
@@ -131,6 +132,7 @@
 - (void)updateUI{
     if ([title.text isEqualToString:@""]) {
         [title becomeFirstResponder];
+        self.count = 0;
         return;
     }
     [countLabel setText:[NSString stringWithFormat:@"%lu", (unsigned long)self.count]];

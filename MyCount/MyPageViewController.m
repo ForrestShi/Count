@@ -8,6 +8,7 @@
 
 #import "MyPageViewController.h"
 #import "OnePageViewController.h"
+#import "AudioUtility.h"
 
 
 @interface MyPageViewController ()<UIPageViewControllerDelegate,UIPageViewControllerDataSource>{
@@ -50,11 +51,15 @@
     if (currentPVC) {
         int countNum = (int)currentPVC.count;
         if ([nft.name isEqualToString:@"AddNft"]) {
-            NSLog(@"add");
+            DLog(@"add");
             countNum++;
+            [[AudioUtility sharedInstance] playSound:@"count" withType:@"wav"];
+
         }else if ([nft.name isEqualToString:@"ReduceNft"]) {
-            NSLog(@"reduce");
+            DLog(@"reduce");
             countNum--;
+            [[AudioUtility sharedInstance] playSound:@"reduce" withType:@"wav"];
+
         }
         
         if (countNum < 0 ) {
@@ -88,6 +93,7 @@
         return nil;
     }
     index--;
+    [[AudioUtility sharedInstance] playSound:@"left" withType:@"caf"];
     return [self newPage:index];
 }
 
@@ -97,6 +103,7 @@
         return nil;
     }
     index++;
+    [[AudioUtility sharedInstance] playSound:@"right" withType:@"caf"];
     return [self newPage:index];
 }
 @end
