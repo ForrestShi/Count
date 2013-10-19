@@ -15,6 +15,7 @@
 		18B1E429181243AA007DB44A /* left.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42718124321007DB44A /* left.caf */; };
 		18B1E42A181243AA007DB44A /* right.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42818124321007DB44A /* right.caf */; };
 		18B1E42C18124677007DB44A /* commit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42B18124677007DB44A /* commit.caf */; };
+		18B1E42E181247FF007DB44A /* Tap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42D181247FF007DB44A /* Tap.caf */; };
 		CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */; };
 		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
 		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
@@ -56,6 +57,7 @@
 		18B1E42718124321007DB44A /* left.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = left.caf; sourceTree = "<group>"; };
 		18B1E42818124321007DB44A /* right.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = right.caf; sourceTree = "<group>"; };
 		18B1E42B18124677007DB44A /* commit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = commit.caf; sourceTree = "<group>"; };
+		18B1E42D181247FF007DB44A /* Tap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tap.caf; sourceTree = "<group>"; };
 		CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
 		CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
 		CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePageViewController.h; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				18B1E42818124321007DB44A /* right.caf */,
 				18B1E423181241E5007DB44A /* reduce.wav */,
 				18B1E424181241E5007DB44A /* add.wav */,
+				18B1E42D181247FF007DB44A /* Tap.caf */,
 				18B1E4211812404D007DB44A /* count.wav */,
 				CD490344180FC7BE0012A7D3 /* mycount.entitlements */,
 				CDA3EC0F1809453500990E7D /* MyCount */,
@@ -297,6 +300,7 @@
 				18B1E42C18124677007DB44A /* commit.caf in Resources */,
 				18B1E425181241E5007DB44A /* reduce.wav in Resources */,
 				18B1E4221812404D007DB44A /* count.wav in Resources */,
+				18B1E42E181247FF007DB44A /* Tap.caf in Resources */,
 				CDA3EC1D1809453500990E7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

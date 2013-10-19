@@ -117,15 +117,19 @@
     
     [self readCountData];
 }
+- (void)textFieldDidBeginEditing:(UITextField *)textField{
+    [[AudioUtility sharedInstance] playSound:@"Tap" withType:@"caf"];
+}
+
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
-    [[AudioUtility sharedInstance] playSound:@"commit" withType:@"caf"];
     return YES;
 }
 
 - (void)onTap:(UITapGestureRecognizer*)gesture{
     [title resignFirstResponder];
+    [[AudioUtility sharedInstance] playSound:@"commit" withType:@"caf"];
     [self saveCountData];
 }
 
