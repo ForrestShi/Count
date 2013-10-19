@@ -21,6 +21,6 @@
 + (instancetype)iOS7darkGrayColor;
 + (instancetype)iOS7lightGrayColor;
 
-
++ (UIColor*)indexColor:(NSInteger)idx;
 
 @end

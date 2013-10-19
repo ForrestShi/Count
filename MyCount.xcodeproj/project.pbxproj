@@ -16,6 +16,8 @@
 		18B1E42A181243AA007DB44A /* right.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42818124321007DB44A /* right.caf */; };
 		18B1E42C18124677007DB44A /* commit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42B18124677007DB44A /* commit.caf */; };
 		18B1E42E181247FF007DB44A /* Tap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42D181247FF007DB44A /* Tap.caf */; };
+		18B1E4361812AA3A007DB44A /* CustomizedSettingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */; };
+		18B1E4391812AC96007DB44A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E4381812AC96007DB44A /* SettingViewController.m */; };
 		CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */; };
 		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
 		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
@@ -51,13 +53,17 @@
 		18B1E41C18123E93007DB44A /* AudioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtility.h; sourceTree = "<group>"; };
 		18B1E41D18123E93007DB44A /* AudioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUtility.m; sourceTree = "<group>"; };
 		18B1E41F18123F18007DB44A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		18B1E4211812404D007DB44A /* count.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = count.wav; sourceTree = "<group>"; };
-		18B1E423181241E5007DB44A /* reduce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reduce.wav; sourceTree = "<group>"; };
-		18B1E424181241E5007DB44A /* add.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = add.wav; sourceTree = "<group>"; };
-		18B1E42718124321007DB44A /* left.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = left.caf; sourceTree = "<group>"; };
-		18B1E42818124321007DB44A /* right.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = right.caf; sourceTree = "<group>"; };
-		18B1E42B18124677007DB44A /* commit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = commit.caf; sourceTree = "<group>"; };
-		18B1E42D181247FF007DB44A /* Tap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tap.caf; sourceTree = "<group>"; };
+		18B1E4211812404D007DB44A /* count.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = count.wav; path = ../count.wav; sourceTree = "<group>"; };
+		18B1E423181241E5007DB44A /* reduce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = reduce.wav; path = ../reduce.wav; sourceTree = "<group>"; };
+		18B1E424181241E5007DB44A /* add.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = add.wav; path = ../add.wav; sourceTree = "<group>"; };
+		18B1E42718124321007DB44A /* left.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = left.caf; path = ../left.caf; sourceTree = "<group>"; };
+		18B1E42818124321007DB44A /* right.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = right.caf; path = ../right.caf; sourceTree = "<group>"; };
+		18B1E42B18124677007DB44A /* commit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = commit.caf; path = ../commit.caf; sourceTree = "<group>"; };
+		18B1E42D181247FF007DB44A /* Tap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tap.caf; path = ../Tap.caf; sourceTree = "<group>"; };
+		18B1E4341812AA3A007DB44A /* CustomizedSettingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomizedSettingTransition.h; path = ../CustomizedSettingTransition.h; sourceTree = "<group>"; };
+		18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomizedSettingTransition.m; path = ../CustomizedSettingTransition.m; sourceTree = "<group>"; };
+		18B1E4371812AC96007DB44A /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		18B1E4381812AC96007DB44A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
 		CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
 		CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePageViewController.h; sourceTree = "<group>"; };
@@ -118,13 +124,6 @@
 		CDA3EBFD1809453500990E7D = {
 			isa = PBXGroup;
 			children = (
-				18B1E42B18124677007DB44A /* commit.caf */,
-				18B1E42718124321007DB44A /* left.caf */,
-				18B1E42818124321007DB44A /* right.caf */,
-				18B1E423181241E5007DB44A /* reduce.wav */,
-				18B1E424181241E5007DB44A /* add.wav */,
-				18B1E42D181247FF007DB44A /* Tap.caf */,
-				18B1E4211812404D007DB44A /* count.wav */,
 				CD490344180FC7BE0012A7D3 /* mycount.entitlements */,
 				CDA3EC0F1809453500990E7D /* MyCount */,
 				CDA3EC2E1809453500990E7D /* MyCountTests */,
@@ -158,6 +157,14 @@
 		CDA3EC0F1809453500990E7D /* MyCount */ = {
 			isa = PBXGroup;
 			children = (
+				CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */,
+				CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */,
+				CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */,
+				CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */,
+				18B1E4341812AA3A007DB44A /* CustomizedSettingTransition.h */,
+				18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */,
+				18B1E41C18123E93007DB44A /* AudioUtility.h */,
+				18B1E41D18123E93007DB44A /* AudioUtility.m */,
 				CD49034618110B4B0012A7D3 /* UIColor+iOS7Colors.h */,
 				CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */,
 				CDCC9128180FBD8A008DE04F /* MKiCloudSync.h */,
@@ -169,12 +176,8 @@
 				CDA3EC1F1809453500990E7D /* ViewController.m */,
 				CDA3EC211809453500990E7D /* Images.xcassets */,
 				CDA3EC101809453500990E7D /* Supporting Files */,
-				CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */,
-				CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */,
-				CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */,
-				CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */,
-				18B1E41C18123E93007DB44A /* AudioUtility.h */,
-				18B1E41D18123E93007DB44A /* AudioUtility.m */,
+				18B1E4371812AC96007DB44A /* SettingViewController.h */,
+				18B1E4381812AC96007DB44A /* SettingViewController.m */,
 			);
 			path = MyCount;
 			sourceTree = "<group>";
@@ -182,6 +185,13 @@
 		CDA3EC101809453500990E7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18B1E42B18124677007DB44A /* commit.caf */,
+				18B1E42718124321007DB44A /* left.caf */,
+				18B1E42818124321007DB44A /* right.caf */,
+				18B1E423181241E5007DB44A /* reduce.wav */,
+				18B1E424181241E5007DB44A /* add.wav */,
+				18B1E42D181247FF007DB44A /* Tap.caf */,
+				18B1E4211812404D007DB44A /* count.wav */,
 				CDA3EC111809453500990E7D /* MyCount-Info.plist */,
 				CDA3EC121809453500990E7D /* InfoPlist.strings */,
 				CDA3EC151809453500990E7D /* main.m */,
@@ -322,12 +332,14 @@
 			files = (
 				CDA3EC201809453500990E7D /* ViewController.m in Sources */,
 				CDA3EC1A1809453500990E7D /* AppDelegate.m in Sources */,
+				18B1E4361812AA3A007DB44A /* CustomizedSettingTransition.m in Sources */,
 				CD49034818110B4B0012A7D3 /* UIColor+iOS7Colors.m in Sources */,
 				CDA3EC161809453500990E7D /* main.m in Sources */,
 				CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */,
 				CDCC912A180FBD8A008DE04F /* MKiCloudSync.m in Sources */,
 				CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */,
 				18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */,
+				18B1E4391812AC96007DB44A /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

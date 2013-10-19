@@ -30,57 +30,6 @@
     return self;
 }
 
-/*
- + (instancetype)iOS7redColor;
- + (instancetype)iOS7orangeColor;
- + (instancetype)iOS7yellowColor;
- + (instancetype)iOS7greenColor;
- + (instancetype)iOS7lightBlueColor;
- + (instancetype)iOS7darkBlueColor;
- + (instancetype)iOS7purpleColor;
- + (instancetype)iOS7pinkColor;
- + (instancetype)iOS7darkGrayColor;
- + (instancetype)iOS7lightGrayColor;
- */
-- (UIColor*)indexColor:(NSInteger)idx{
-    
-    switch (idx) {
-        case 0:
-            return [UIColor iOS7redColor];
-            break;
-        case 1:
-            return [UIColor iOS7orangeColor];
-            break;
-        case 2:
-            return [UIColor iOS7yellowColor];
-            break;
-        case 3:
-            return [UIColor iOS7greenColor];
-            break;
-        case 4:
-            return [UIColor iOS7lightBlueColor];
-            break;
-        case 5:
-            return [UIColor iOS7darkBlueColor];
-            break;
-        case 6:
-            return [UIColor iOS7purpleColor];
-            break;
-        case 7:
-            return [UIColor iOS7pinkColor];
-            break;
-        case 8:
-            return [UIColor iOS7darkGrayColor];
-            break;
-        case 9:
-            return [UIColor iOS7lightGrayColor];
-            break;
-        default:
-            return [UIColor whiteColor];
-            break;
-    }
-    
-}
 
 - (void)viewDidLoad
 {
