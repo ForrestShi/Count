@@ -26,6 +26,11 @@
     self.reduceBtn.tintColor = [UIColor iOS7orangeColor];
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 - (void)viewWillAppear:(BOOL)animated{
     self.addBtn.tintColor = [UIColor systemColor];
     self.reduceBtn.tintColor = [UIColor systemColor];

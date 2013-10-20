@@ -40,7 +40,7 @@
     float offY = IS_IPHONE_5 ? 40.: 30.;
     
     title = [[UITextField alloc] initWithFrame:CGRectMake(offX, offY, 320 - offX *2,  40.)];
-    title.placeholder = @"Click Here ";
+    title.placeholder = @"What to count";
     title.textColor = [UIColor systemColor];
     title.center = CGPointMake(self.view.center.x, self.view.center.y - (320 - offX*2)/2 - 40.);
     

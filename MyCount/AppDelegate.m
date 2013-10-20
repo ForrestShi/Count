@@ -17,7 +17,10 @@
     // Override point for customization after application launch.
     [MKiCloudSync start];
     
-    self.window.tintColor = [UIColor systemColor];
+    //self.window.tintColor = [UIColor systemColor];
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithInt:4] forKey:@"color"];
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"sound"];
+
     return YES;
 }
 							

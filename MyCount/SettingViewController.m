@@ -45,6 +45,13 @@
     [self.view addGestureRecognizer:swipDown];
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
+
+
 - (void)viewWillAppear:(BOOL)animated{
     BOOL on = [[NSUserDefaults standardUserDefaults] boolForKey:@"sound"];
     [self.soundSwitch setOn:on];
