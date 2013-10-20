@@ -23,4 +23,6 @@
 
 + (UIColor*)indexColor:(NSInteger)idx;
 
++ (UIColor*)systemColor;
+
 @end

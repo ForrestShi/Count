@@ -10,6 +10,8 @@
 
 @interface SettingViewController : UIViewController
 
+@property (nonatomic,strong) IBOutlet UISwitch *soundSwitch;
+
 - (IBAction)confirmed:(id)sender;
 - (IBAction)soundOn:(id)sender;
 - (IBAction)chooseColor:(id)sender;

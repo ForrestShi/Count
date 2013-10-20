@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MKiCloudSync.h"
+#import "UIColor+iOS7Colors.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,8 @@
 {
     // Override point for customization after application launch.
     [MKiCloudSync start];
+    
+    self.window.tintColor = [UIColor systemColor];
     return YES;
 }
 							

@@ -14,6 +14,7 @@
 @interface OnePageViewController ()<UITextFieldDelegate>{
     UITextField *title ;
     UILabel *countLabel;
+    UILabel *lbl ;
 }
 
 @end
@@ -35,12 +36,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    float offX = IS_IPHONE_5 ? 40.: 30.;
+    float offX = IS_IPHONE_5 ? 40.: 38.;
     float offY = IS_IPHONE_5 ? 40.: 30.;
     
     title = [[UITextField alloc] initWithFrame:CGRectMake(offX, offY, 320 - offX *2,  40.)];
     title.placeholder = @"Click Here ";
-    title.textColor = [UIColor iOS7lightBlueColor];
+    title.textColor = [UIColor systemColor];
     title.center = CGPointMake(self.view.center.x, self.view.center.y - (320 - offX*2)/2 - 40.);
     
     title.font = [UIFont systemFontOfSize:30.];
@@ -48,8 +49,8 @@
     title.delegate = self;
     [self.view addSubview:title];
     
-    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(offX, offY + title.bounds.size.height +  20., 320 - offX *2 , 320 - offX *2)];
-    lbl.backgroundColor = [UIColor iOS7lightBlueColor];
+    lbl = [[UILabel alloc] initWithFrame:CGRectMake(offX, offY + title.bounds.size.height +  IS_IPHONE_5?20.:10., 320 - offX *2 , 320 - offX *2)];
+    lbl.backgroundColor = [UIColor systemColor];
     lbl.center = self.view.center;
     lbl.font = [UIFont boldSystemFontOfSize:150.];
     lbl.textColor = [UIColor whiteColor];
@@ -66,6 +67,13 @@
     
     [self readCountData];
 }
+
+- (void)viewWillAppear:(BOOL)animated{
+    lbl.backgroundColor = [UIColor systemColor];
+    title.textColor = [UIColor systemColor];
+
+}
+
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
     [[AudioUtility sharedInstance] playSound:@"Tap" withType:@"caf"];
 }

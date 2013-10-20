@@ -34,15 +34,14 @@
         
 
         toVC.view.frame = CGRectMake(0, height, width, height);
-        toVC.view.backgroundColor = [UIColor lightGrayColor];
         toVC.view.alpha = 0.;
         
         [UIView animateKeyframesWithDuration:1. delay:.3 options:UIViewKeyframeAnimationOptionCalculationModeCubicPaced animations:^{
             //
-            fromVC.view.frame = CGRectOffset(fromVC.view.frame, 0, fromVC.view.bounds.size.height*0.8 *(-1));
+            fromVC.view.frame = CGRectOffset(fromVC.view.frame, 0, fromVC.view.bounds.size.height *(-1));
             toVC.view.frame = CGRectMake(0, 0, width, height);
             //fromVC.view.alpha = 0.;
-            toVC.view.alpha = 1.;
+            toVC.view.alpha = .8;
         } completion:^(BOOL finished) {
             //
             [transitionContext completeTransition:YES];

@@ -9,6 +9,7 @@
 #import "SettingViewController.h"
 #import "UIColor+iOS7Colors.h"
 #import <QuartzCore/QuartzCore.h>
+#import "AudioUtility.h"
 
 @interface SettingViewController ()
 
@@ -36,6 +37,22 @@
             v.backgroundColor = [UIColor indexColor:(v.tag -100)];
         }
     }
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UISwipeGestureRecognizer *swipDown = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipDown)];
+    swipDown.direction = UISwipeGestureRecognizerDirectionDown;
+    [self.view addGestureRecognizer:swipDown];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    BOOL on = [[NSUserDefaults standardUserDefaults] boolForKey:@"sound"];
+    [self.soundSwitch setOn:on];
+}
+
+- (void)swipDown{
+    [self confirmed:nil];
+    [[AudioUtility sharedInstance] playSound:@"down" withType:@"caf"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -56,12 +73,17 @@
     UISwitch *s = (UISwitch*)sender;
     [[NSUserDefaults standardUserDefaults] setBool:s.isOn forKey:@"sound"];
     [[NSUserDefaults standardUserDefaults] synchronize];
-
+    [[AudioUtility sharedInstance] playSound:@"ting" withType:@"wav"];
 }
 - (IBAction)chooseColor:(id)sender{
     UIButton *b = (UIButton*)sender;
     [[NSUserDefaults standardUserDefaults] setObject: [NSNumber numberWithInt:(b.tag-100)] forKey:@"color"];
     [[NSUserDefaults standardUserDefaults] synchronize];
+    [[AudioUtility sharedInstance] playSound:@"c2" withType:@"caf"];
+    
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 
 }
 

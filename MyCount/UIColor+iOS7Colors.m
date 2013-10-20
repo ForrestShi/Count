@@ -110,4 +110,10 @@
     
 }
 
++ (UIColor*)systemColor{
+    NSInteger colorIndex = [[[NSUserDefaults standardUserDefaults] objectForKey:@"color"] intValue];
+    UIColor *c = [UIColor indexColor:colorIndex];
+    return c;
+}
+
 @end

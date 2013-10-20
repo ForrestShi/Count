@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIColor+iOS7Colors.h"
 #import "CustomizedSettingTransition.h"
+#import "AudioUtility.h"
 
 @interface ViewController ()<UIViewControllerTransitioningDelegate>
 
@@ -24,6 +25,13 @@
     self.addBtn.tintColor = [UIColor iOS7orangeColor];
     self.reduceBtn.tintColor = [UIColor iOS7orangeColor];
 }
+
+- (void)viewWillAppear:(BOOL)animated{
+    self.addBtn.tintColor = [UIColor systemColor];
+    self.reduceBtn.tintColor = [UIColor systemColor];
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -43,6 +51,9 @@
     if ([segue.identifier isEqualToString:@"showSetting"]) {
         UIViewController *dvc = segue.destinationViewController;
         dvc.transitioningDelegate = self;
+        
+        [[AudioUtility sharedInstance] playSound:@"up" withType:@"caf"];
+
     }
 }
 

@@ -21,10 +21,13 @@
 }
 
 -(void) playSound:(NSString*)fileName withType:(NSString*)fileType{
-    NSString *soundPath = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
-    SystemSoundID soundID;
-    AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-    AudioServicesPlaySystemSound (soundID);
+    BOOL soundOn = [[NSUserDefaults standardUserDefaults] boolForKey:@"sound"];
+    if (soundOn) {
+        NSString *soundPath = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
+        SystemSoundID soundID;
+        AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
+        AudioServicesPlaySystemSound (soundID);
+    }
 }
 
 @end

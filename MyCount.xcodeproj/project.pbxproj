@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1815BB151814142100654ECC /* up.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB141814142100654ECC /* up.caf */; };
+		1815BB171814143100654ECC /* down.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB161814143100654ECC /* down.caf */; };
+		1815BB1B1814148E00654ECC /* c1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB181814148E00654ECC /* c1.caf */; };
+		1815BB1C1814148E00654ECC /* c2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB191814148E00654ECC /* c2.caf */; };
+		1815BB1D1814148E00654ECC /* c3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB1A1814148E00654ECC /* c3.caf */; };
+		1815BB1F1814153000654ECC /* ting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB1E1814153000654ECC /* ting.wav */; };
 		18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E41D18123E93007DB44A /* AudioUtility.m */; };
 		18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B1E41F18123F18007DB44A /* AudioToolbox.framework */; };
 		18B1E4221812404D007DB44A /* count.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E4211812404D007DB44A /* count.wav */; };
@@ -50,6 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1815BB141814142100654ECC /* up.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = up.caf; sourceTree = "<group>"; };
+		1815BB161814143100654ECC /* down.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = down.caf; sourceTree = "<group>"; };
+		1815BB181814148E00654ECC /* c1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c1.caf; sourceTree = "<group>"; };
+		1815BB191814148E00654ECC /* c2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c2.caf; sourceTree = "<group>"; };
+		1815BB1A1814148E00654ECC /* c3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c3.caf; sourceTree = "<group>"; };
+		1815BB1E1814153000654ECC /* ting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ting.wav; sourceTree = "<group>"; };
 		18B1E41C18123E93007DB44A /* AudioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtility.h; sourceTree = "<group>"; };
 		18B1E41D18123E93007DB44A /* AudioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUtility.m; sourceTree = "<group>"; };
 		18B1E41F18123F18007DB44A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -124,6 +136,12 @@
 		CDA3EBFD1809453500990E7D = {
 			isa = PBXGroup;
 			children = (
+				1815BB1E1814153000654ECC /* ting.wav */,
+				1815BB141814142100654ECC /* up.caf */,
+				1815BB161814143100654ECC /* down.caf */,
+				1815BB181814148E00654ECC /* c1.caf */,
+				1815BB191814148E00654ECC /* c2.caf */,
+				1815BB1A1814148E00654ECC /* c3.caf */,
 				CD490344180FC7BE0012A7D3 /* mycount.entitlements */,
 				CDA3EC0F1809453500990E7D /* MyCount */,
 				CDA3EC2E1809453500990E7D /* MyCountTests */,
@@ -303,12 +321,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B1E429181243AA007DB44A /* left.caf in Resources */,
+				1815BB1C1814148E00654ECC /* c2.caf in Resources */,
+				1815BB151814142100654ECC /* up.caf in Resources */,
 				18B1E42A181243AA007DB44A /* right.caf in Resources */,
 				CDA3EC221809453500990E7D /* Images.xcassets in Resources */,
+				1815BB171814143100654ECC /* down.caf in Resources */,
+				1815BB1F1814153000654ECC /* ting.wav in Resources */,
+				1815BB1D1814148E00654ECC /* c3.caf in Resources */,
 				CDA3EC141809453500990E7D /* InfoPlist.strings in Resources */,
 				18B1E426181241E5007DB44A /* add.wav in Resources */,
 				18B1E42C18124677007DB44A /* commit.caf in Resources */,
 				18B1E425181241E5007DB44A /* reduce.wav in Resources */,
+				1815BB1B1814148E00654ECC /* c1.caf in Resources */,
 				18B1E4221812404D007DB44A /* count.wav in Resources */,
 				18B1E42E181247FF007DB44A /* Tap.caf in Resources */,
 				CDA3EC1D1809453500990E7D /* Main.storyboard in Resources */,
