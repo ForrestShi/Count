@@ -47,6 +47,7 @@
 		CD596BC1181522150094B0EF /* libFlurryAds_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */; };
 		CD596BC618152D090094B0EF /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD596BC318152D090094B0EF /* iRate.bundle */; };
 		CD596BC718152D090094B0EF /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD596BC518152D090094B0EF /* iRate.m */; };
+		CD596BC9181536AE0094B0EF /* swipup.png in Resources */ = {isa = PBXBuildFile; fileRef = CD596BC8181536AD0094B0EF /* swipup.png */; };
 		CDA3EC0A1809453500990E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC091809453500990E7D /* Foundation.framework */; };
 		CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0B1809453500990E7D /* CoreGraphics.framework */; };
 		CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0D1809453500990E7D /* UIKit.framework */; };
@@ -126,6 +127,7 @@
 		CD596BC318152D090094B0EF /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
 		CD596BC418152D090094B0EF /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
 		CD596BC518152D090094B0EF /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		CD596BC8181536AD0094B0EF /* swipup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swipup.png; path = ../../../../Desktop/swipup.png; sourceTree = "<group>"; };
 		CDA3EC061809453500990E7D /* InstaCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA3EC091809453500990E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDA3EC0B1809453500990E7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -308,6 +310,7 @@
 		CDA3EC101809453500990E7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD596BC8181536AD0094B0EF /* swipup.png */,
 				CD596BBD181522150094B0EF /* FlurryAds */,
 				CD596BB418151FCD0094B0EF /* Flurry.h */,
 				CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */,
@@ -448,6 +451,7 @@
 				1815BB2F18141C1800654ECC /* Icon-80.png in Resources */,
 				18B1E4221812404D007DB44A /* count.wav in Resources */,
 				18B1E42E181247FF007DB44A /* Tap.caf in Resources */,
+				CD596BC9181536AE0094B0EF /* swipup.png in Resources */,
 				1815BB3318141C1800654ECC /* Icon-Small@2x.png in Resources */,
 				CDA3EC1D1809453500990E7D /* Main.storyboard in Resources */,
 				1815BB3618141C1800654ECC /* Icon512.png in Resources */,

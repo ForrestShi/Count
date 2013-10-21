@@ -24,6 +24,25 @@
  
     self.addBtn.tintColor = [UIColor iOS7orangeColor];
     self.reduceBtn.tintColor = [UIColor iOS7orangeColor];
+    
+    UIImageView *tipView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    tipView.backgroundColor = [UIColor blackColor];
+    tipView.alpha = .5;
+    
+    tipView.contentMode = UIViewContentModeCenter | UIViewContentModeScaleAspectFill;
+    tipView.image = [UIImage imageNamed:@"swipup.png"];
+    
+    [self.view addSubview:tipView];
+    
+    double delayInSeconds = 3.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [UIView animateWithDuration:.7 animations:^{
+            tipView.alpha = 0.;
+        } completion:^(BOOL finished) {
+            [tipView removeFromSuperview];
+        }];
+    });
 }
 
 - (BOOL)prefersStatusBarHidden
