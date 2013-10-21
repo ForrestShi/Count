@@ -10,6 +10,8 @@
 #import "UIColor+iOS7Colors.h"
 #import <QuartzCore/QuartzCore.h>
 #import "AudioUtility.h"
+#import "iRate.h"
+#import "Flurry.h"
 
 @interface SettingViewController ()
 
@@ -93,5 +95,13 @@
     }];
 
 }
+
+- (IBAction)rate:(id)sender{
+    
+    [Flurry logEvent:@"Rate"];
+    
+    [[iRate sharedInstance] promptForRating];
+}
+
 
 @end

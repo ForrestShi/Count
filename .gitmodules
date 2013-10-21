@@ -1,3 +1,6 @@
 [submodule "iCloud"]
 	path = iCloud
 	url = https://github.com/MugunthKumar/MKiCloudSync.git
+[submodule "iRate"]
+	path = iRate
+	url = https://github.com/nicklockwood/iRate.git

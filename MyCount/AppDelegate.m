@@ -10,18 +10,32 @@
 #import "MKiCloudSync.h"
 #import "Flurry.h"
 #import "UIColor+iOS7Colors.h"
+#import "iRate.h"
 
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    NSString* version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    DLog(@"version %@", version);
+    [Flurry setAppVersion:version];
+    
     [Flurry setCrashReportingEnabled:YES];
     //note: iOS only allows one crash reporting tool per app; if using another, set to: NO
     [Flurry startSession:@"ZGFP3X6YF97FDFKQXGWP"];
     
+
+    
     // Override point for customization after application launch.
     [MKiCloudSync start];
+    
+    
+	[iRate sharedInstance].onlyPromptIfLatestVersion = NO;
+    
+    //enable preview mode , just for debug
+    //[iRate sharedInstance].previewMode = YES;
     
     //self.window.tintColor = [UIColor systemColor];
     [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithInt:4] forKey:@"color"];

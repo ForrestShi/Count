@@ -15,5 +15,6 @@
 - (IBAction)confirmed:(id)sender;
 - (IBAction)soundOn:(id)sender;
 - (IBAction)chooseColor:(id)sender;
+- (IBAction)rate:(id)sender;
 
 @end
