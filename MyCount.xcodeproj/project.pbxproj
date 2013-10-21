@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1815BB151814142100654ECC /* up.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB141814142100654ECC /* up.caf */; };
+		1815BB171814143100654ECC /* down.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB161814143100654ECC /* down.caf */; };
+		1815BB1B1814148E00654ECC /* c1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB181814148E00654ECC /* c1.caf */; };
+		1815BB1C1814148E00654ECC /* c2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB191814148E00654ECC /* c2.caf */; };
+		1815BB1D1814148E00654ECC /* c3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB1A1814148E00654ECC /* c3.caf */; };
+		1815BB1F1814153000654ECC /* ting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB1E1814153000654ECC /* ting.wav */; };
+		1815BB2C18141C1800654ECC /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2018141C1800654ECC /* Icon-58.png */; };
+		1815BB2D18141C1800654ECC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2118141C1800654ECC /* Icon-72.png */; };
+		1815BB2E18141C1800654ECC /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2218141C1800654ECC /* Icon-72@2x.png */; };
+		1815BB2F18141C1800654ECC /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2318141C1800654ECC /* Icon-80.png */; };
+		1815BB3018141C1800654ECC /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2418141C1800654ECC /* Icon-120.png */; };
+		1815BB3118141C1800654ECC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2518141C1800654ECC /* Icon-Small-50.png */; };
+		1815BB3218141C1800654ECC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2618141C1800654ECC /* Icon-Small.png */; };
+		1815BB3318141C1800654ECC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2718141C1800654ECC /* Icon-Small@2x.png */; };
+		1815BB3418141C1800654ECC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2818141C1800654ECC /* Icon.png */; };
+		1815BB3518141C1800654ECC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2918141C1800654ECC /* Icon@2x.png */; };
+		1815BB3618141C1800654ECC /* Icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2A18141C1800654ECC /* Icon512.png */; };
+		1815BB3718141C1800654ECC /* Icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2B18141C1800654ECC /* Icon1024.png */; };
+		18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E41D18123E93007DB44A /* AudioUtility.m */; };
+		18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B1E41F18123F18007DB44A /* AudioToolbox.framework */; };
+		18B1E4221812404D007DB44A /* count.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E4211812404D007DB44A /* count.wav */; };
+		18B1E425181241E5007DB44A /* reduce.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E423181241E5007DB44A /* reduce.wav */; };
+		18B1E426181241E5007DB44A /* add.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E424181241E5007DB44A /* add.wav */; };
+		18B1E429181243AA007DB44A /* left.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42718124321007DB44A /* left.caf */; };
+		18B1E42A181243AA007DB44A /* right.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42818124321007DB44A /* right.caf */; };
+		18B1E42C18124677007DB44A /* commit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42B18124677007DB44A /* commit.caf */; };
+		18B1E42E181247FF007DB44A /* Tap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42D181247FF007DB44A /* Tap.caf */; };
+		18B1E4361812AA3A007DB44A /* CustomizedSettingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */; };
+		18B1E4391812AC96007DB44A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E4381812AC96007DB44A /* SettingViewController.m */; };
 		CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */; };
 		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
 		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
@@ -44,6 +73,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1815BB141814142100654ECC /* up.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = up.caf; path = ../up.caf; sourceTree = "<group>"; };
+		1815BB161814143100654ECC /* down.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = down.caf; path = ../down.caf; sourceTree = "<group>"; };
+		1815BB181814148E00654ECC /* c1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = c1.caf; path = ../c1.caf; sourceTree = "<group>"; };
+		1815BB191814148E00654ECC /* c2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = c2.caf; path = ../c2.caf; sourceTree = "<group>"; };
+		1815BB1A1814148E00654ECC /* c3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = c3.caf; path = ../c3.caf; sourceTree = "<group>"; };
+		1815BB1E1814153000654ECC /* ting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ting.wav; path = ../ting.wav; sourceTree = "<group>"; };
+		1815BB2018141C1800654ECC /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		1815BB2118141C1800654ECC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		1815BB2218141C1800654ECC /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		1815BB2318141C1800654ECC /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		1815BB2418141C1800654ECC /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		1815BB2518141C1800654ECC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		1815BB2618141C1800654ECC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		1815BB2718141C1800654ECC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1815BB2818141C1800654ECC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1815BB2918141C1800654ECC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1815BB2A18141C1800654ECC /* Icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon512.png; sourceTree = "<group>"; };
+		1815BB2B18141C1800654ECC /* Icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1024.png; sourceTree = "<group>"; };
+		18B1E41C18123E93007DB44A /* AudioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtility.h; sourceTree = "<group>"; };
+		18B1E41D18123E93007DB44A /* AudioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUtility.m; sourceTree = "<group>"; };
+		18B1E41F18123F18007DB44A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18B1E4211812404D007DB44A /* count.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = count.wav; path = ../count.wav; sourceTree = "<group>"; };
+		18B1E423181241E5007DB44A /* reduce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = reduce.wav; path = ../reduce.wav; sourceTree = "<group>"; };
+		18B1E424181241E5007DB44A /* add.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = add.wav; path = ../add.wav; sourceTree = "<group>"; };
+		18B1E42718124321007DB44A /* left.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = left.caf; path = ../left.caf; sourceTree = "<group>"; };
+		18B1E42818124321007DB44A /* right.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = right.caf; path = ../right.caf; sourceTree = "<group>"; };
+		18B1E42B18124677007DB44A /* commit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = commit.caf; path = ../commit.caf; sourceTree = "<group>"; };
+		18B1E42D181247FF007DB44A /* Tap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tap.caf; path = ../Tap.caf; sourceTree = "<group>"; };
+		18B1E4341812AA3A007DB44A /* CustomizedSettingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomizedSettingTransition.h; path = ../CustomizedSettingTransition.h; sourceTree = "<group>"; };
+		18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomizedSettingTransition.m; path = ../CustomizedSettingTransition.m; sourceTree = "<group>"; };
+		18B1E4371812AC96007DB44A /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		18B1E4381812AC96007DB44A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
 		CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
 		CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePageViewController.h; sourceTree = "<group>"; };
@@ -60,7 +121,7 @@
 		CD596BBE181522150094B0EF /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
 		CD596BBF181522150094B0EF /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
 		CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_4.2.4.a; sourceTree = "<group>"; };
-		CDA3EC061809453500990E7D /* mycount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA3EC061809453500990E7D /* InstaCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA3EC091809453500990E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDA3EC0B1809453500990E7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CDA3EC0D1809453500990E7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -91,6 +152,7 @@
 				CD596BBC181520BD0094B0EF /* AdSupport.framework in Frameworks */,
 				CD596BBA181520AF0094B0EF /* Security.framework in Frameworks */,
 				CD596BB8181520A90094B0EF /* SystemConfiguration.framework in Frameworks */,
+				18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */,
 				CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */,
 				CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */,
 				CD596BC1181522150094B0EF /* libFlurryAds_4.2.4.a in Frameworks */,
@@ -113,6 +175,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1815BB3818141C2200654ECC /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1815BB2018141C1800654ECC /* Icon-58.png */,
+				1815BB2118141C1800654ECC /* Icon-72.png */,
+				1815BB2218141C1800654ECC /* Icon-72@2x.png */,
+				1815BB2318141C1800654ECC /* Icon-80.png */,
+				1815BB2418141C1800654ECC /* Icon-120.png */,
+				1815BB2518141C1800654ECC /* Icon-Small-50.png */,
+				1815BB2618141C1800654ECC /* Icon-Small.png */,
+				1815BB2718141C1800654ECC /* Icon-Small@2x.png */,
+				1815BB2818141C1800654ECC /* Icon.png */,
+				1815BB2918141C1800654ECC /* Icon@2x.png */,
+				1815BB2A18141C1800654ECC /* Icon512.png */,
+				1815BB2B18141C1800654ECC /* Icon1024.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		1815BB3918141C3500654ECC /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				18B1E42B18124677007DB44A /* commit.caf */,
+				18B1E42718124321007DB44A /* left.caf */,
+				1815BB1E1814153000654ECC /* ting.wav */,
+				1815BB141814142100654ECC /* up.caf */,
+				1815BB161814143100654ECC /* down.caf */,
+				1815BB181814148E00654ECC /* c1.caf */,
+				1815BB191814148E00654ECC /* c2.caf */,
+				1815BB1A1814148E00654ECC /* c3.caf */,
+				18B1E42818124321007DB44A /* right.caf */,
+				18B1E423181241E5007DB44A /* reduce.wav */,
+				18B1E424181241E5007DB44A /* add.wav */,
+				18B1E42D181247FF007DB44A /* Tap.caf */,
+				18B1E4211812404D007DB44A /* count.wav */,
+			);
+			name = audios;
+			sourceTree = "<group>";
+		};
 		CD596BBD181522150094B0EF /* FlurryAds */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +238,7 @@
 		CDA3EC071809453500990E7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDA3EC061809453500990E7D /* mycount.app */,
+				CDA3EC061809453500990E7D /* InstaCount.app */,
 				CDA3EC271809453500990E7D /* MyCountTests.xctest */,
 			);
 			name = Products;
@@ -149,6 +250,7 @@
 				CD596BBB181520BD0094B0EF /* AdSupport.framework */,
 				CD596BB9181520AF0094B0EF /* Security.framework */,
 				CD596BB7181520A90094B0EF /* SystemConfiguration.framework */,
+				18B1E41F18123F18007DB44A /* AudioToolbox.framework */,
 				CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */,
 				CDA3EC091809453500990E7D /* Foundation.framework */,
 				CDA3EC0B1809453500990E7D /* CoreGraphics.framework */,
@@ -161,6 +263,14 @@
 		CDA3EC0F1809453500990E7D /* MyCount */ = {
 			isa = PBXGroup;
 			children = (
+				CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */,
+				CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */,
+				CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */,
+				CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */,
+				18B1E4341812AA3A007DB44A /* CustomizedSettingTransition.h */,
+				18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */,
+				18B1E41C18123E93007DB44A /* AudioUtility.h */,
+				18B1E41D18123E93007DB44A /* AudioUtility.m */,
 				CD49034618110B4B0012A7D3 /* UIColor+iOS7Colors.h */,
 				CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */,
 				CDCC9128180FBD8A008DE04F /* MKiCloudSync.h */,
@@ -172,10 +282,8 @@
 				CDA3EC1F1809453500990E7D /* ViewController.m */,
 				CDA3EC211809453500990E7D /* Images.xcassets */,
 				CDA3EC101809453500990E7D /* Supporting Files */,
-				CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */,
-				CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */,
-				CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */,
-				CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */,
+				18B1E4371812AC96007DB44A /* SettingViewController.h */,
+				18B1E4381812AC96007DB44A /* SettingViewController.m */,
 			);
 			path = MyCount;
 			sourceTree = "<group>";
@@ -186,6 +294,8 @@
 				CD596BBD181522150094B0EF /* FlurryAds */,
 				CD596BB418151FCD0094B0EF /* Flurry.h */,
 				CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */,
+				1815BB3818141C2200654ECC /* Icons */,
+				1815BB3918141C3500654ECC /* audios */,
 				CDA3EC111809453500990E7D /* MyCount-Info.plist */,
 				CDA3EC121809453500990E7D /* InfoPlist.strings */,
 				CDA3EC151809453500990E7D /* main.m */,
@@ -215,9 +325,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDA3EC051809453500990E7D /* mycount */ = {
+		CDA3EC051809453500990E7D /* InstaCount */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "mycount" */;
+			buildConfigurationList = CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "InstaCount" */;
 			buildPhases = (
 				CDA3EC021809453500990E7D /* Sources */,
 				CDA3EC031809453500990E7D /* Frameworks */,
@@ -227,9 +337,9 @@
 			);
 			dependencies = (
 			);
-			name = mycount;
+			name = InstaCount;
 			productName = MyCount;
-			productReference = CDA3EC061809453500990E7D /* mycount.app */;
+			productReference = CDA3EC061809453500990E7D /* InstaCount.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CDA3EC261809453500990E7D /* MyCountTests */ = {
@@ -285,7 +395,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDA3EC051809453500990E7D /* mycount */,
+				CDA3EC051809453500990E7D /* InstaCount */,
 				CDA3EC261809453500990E7D /* MyCountTests */,
 			);
 		};
@@ -296,9 +406,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B1E429181243AA007DB44A /* left.caf in Resources */,
+				1815BB3518141C1800654ECC /* Icon@2x.png in Resources */,
+				1815BB1C1814148E00654ECC /* c2.caf in Resources */,
+				1815BB3418141C1800654ECC /* Icon.png in Resources */,
+				1815BB151814142100654ECC /* up.caf in Resources */,
+				18B1E42A181243AA007DB44A /* right.caf in Resources */,
 				CDA3EC221809453500990E7D /* Images.xcassets in Resources */,
+				1815BB3718141C1800654ECC /* Icon1024.png in Resources */,
+				1815BB171814143100654ECC /* down.caf in Resources */,
+				1815BB1F1814153000654ECC /* ting.wav in Resources */,
+				1815BB3018141C1800654ECC /* Icon-120.png in Resources */,
+				1815BB1D1814148E00654ECC /* c3.caf in Resources */,
 				CDA3EC141809453500990E7D /* InfoPlist.strings in Resources */,
+				18B1E426181241E5007DB44A /* add.wav in Resources */,
+				18B1E42C18124677007DB44A /* commit.caf in Resources */,
+				1815BB2D18141C1800654ECC /* Icon-72.png in Resources */,
+				1815BB3118141C1800654ECC /* Icon-Small-50.png in Resources */,
+				18B1E425181241E5007DB44A /* reduce.wav in Resources */,
+				1815BB2E18141C1800654ECC /* Icon-72@2x.png in Resources */,
+				1815BB1B1814148E00654ECC /* c1.caf in Resources */,
+				1815BB2C18141C1800654ECC /* Icon-58.png in Resources */,
+				1815BB2F18141C1800654ECC /* Icon-80.png in Resources */,
+				18B1E4221812404D007DB44A /* count.wav in Resources */,
+				18B1E42E181247FF007DB44A /* Tap.caf in Resources */,
+				1815BB3318141C1800654ECC /* Icon-Small@2x.png in Resources */,
 				CDA3EC1D1809453500990E7D /* Main.storyboard in Resources */,
+				1815BB3618141C1800654ECC /* Icon512.png in Resources */,
+				1815BB3218141C1800654ECC /* Icon-Small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,11 +454,14 @@
 			files = (
 				CDA3EC201809453500990E7D /* ViewController.m in Sources */,
 				CDA3EC1A1809453500990E7D /* AppDelegate.m in Sources */,
+				18B1E4361812AA3A007DB44A /* CustomizedSettingTransition.m in Sources */,
 				CD49034818110B4B0012A7D3 /* UIColor+iOS7Colors.m in Sources */,
 				CDA3EC161809453500990E7D /* main.m in Sources */,
 				CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */,
 				CDCC912A180FBD8A008DE04F /* MKiCloudSync.m in Sources */,
 				CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */,
+				18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */,
+				18B1E4391812AC96007DB44A /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +478,7 @@
 /* Begin PBXTargetDependency section */
 		CDA3EC2D1809453500990E7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDA3EC051809453500990E7D /* mycount */;
+			target = CDA3EC051809453500990E7D /* InstaCount */;
 			targetProxy = CDA3EC2C1809453500990E7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -459,7 +597,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/shilin/workspace/myIdeas/MyCount/Flurry,
@@ -551,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "mycount" */ = {
+		CDA3EC381809453500990E7D /* Build configuration list for PBXNativeTarget "InstaCount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDA3EC391809453500990E7D /* Debug */,

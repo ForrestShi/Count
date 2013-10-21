@@ -10,10 +10,12 @@
 #import <QuartzCore/QuartzCore.h>
 #import "UIColor+iOS7Colors.h"
 #import "Flurry.h"
+#import "AudioUtility.h"
 
 @interface OnePageViewController ()<UITextFieldDelegate>{
     UITextField *title ;
     UILabel *countLabel;
+    UILabel *lbl ;
 }
 
 @end
@@ -30,68 +32,17 @@
     return self;
 }
 
-/*
- + (instancetype)iOS7redColor;
- + (instancetype)iOS7orangeColor;
- + (instancetype)iOS7yellowColor;
- + (instancetype)iOS7greenColor;
- + (instancetype)iOS7lightBlueColor;
- + (instancetype)iOS7darkBlueColor;
- + (instancetype)iOS7purpleColor;
- + (instancetype)iOS7pinkColor;
- + (instancetype)iOS7darkGrayColor;
- + (instancetype)iOS7lightGrayColor;
- */
-- (UIColor*)indexColor:(NSInteger)idx{
-    
-    switch (idx) {
-        case 0:
-            return [UIColor iOS7redColor];
-            break;
-        case 1:
-            return [UIColor iOS7orangeColor];
-            break;
-        case 2:
-            return [UIColor iOS7yellowColor];
-            break;
-        case 3:
-            return [UIColor iOS7greenColor];
-            break;
-        case 4:
-            return [UIColor iOS7lightBlueColor];
-            break;
-        case 5:
-            return [UIColor iOS7darkBlueColor];
-            break;
-        case 6:
-            return [UIColor iOS7purpleColor];
-            break;
-        case 7:
-            return [UIColor iOS7pinkColor];
-            break;
-        case 8:
-            return [UIColor iOS7darkGrayColor];
-            break;
-        case 9:
-            return [UIColor iOS7lightGrayColor];
-            break;
-        default:
-            return [UIColor whiteColor];
-            break;
-    }
-    
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    float offX = IS_IPHONE_5 ? 40.: 30.;
+    float offX = IS_IPHONE_5 ? 40.: 38.;
     float offY = IS_IPHONE_5 ? 40.: 30.;
     
     title = [[UITextField alloc] initWithFrame:CGRectMake(offX, offY, 320 - offX *2,  40.)];
-    title.placeholder = @"Click Here ";
-    title.textColor = [UIColor iOS7lightBlueColor];
+    title.placeholder = @"What to count";
+    title.textColor = [UIColor systemColor];
     title.center = CGPointMake(self.view.center.x, self.view.center.y - (320 - offX*2)/2 - 40.);
     
     title.font = [UIFont systemFontOfSize:30.];
@@ -99,8 +50,8 @@
     title.delegate = self;
     [self.view addSubview:title];
     
-    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(offX, offY + title.bounds.size.height +  20., 320 - offX *2 , 320 - offX *2)];
-    lbl.backgroundColor = [UIColor iOS7lightBlueColor];
+    lbl = [[UILabel alloc] initWithFrame:CGRectMake(offX, offY + title.bounds.size.height +  IS_IPHONE_5?20.:10., 320 - offX *2 , 320 - offX *2)];
+    lbl.backgroundColor = [UIColor systemColor];
     lbl.center = self.view.center;
     lbl.font = [UIFont boldSystemFontOfSize:150.];
     lbl.textColor = [UIColor whiteColor];
@@ -118,6 +69,17 @@
     [self readCountData];
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    lbl.backgroundColor = [UIColor systemColor];
+    title.textColor = [UIColor systemColor];
+
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField{
+    [[AudioUtility sharedInstance] playSound:@"Tap" withType:@"caf"];
+}
+
+
 - (BOOL) textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
     return YES;
@@ -125,12 +87,14 @@
 
 - (void)onTap:(UITapGestureRecognizer*)gesture{
     [title resignFirstResponder];
+    [[AudioUtility sharedInstance] playSound:@"commit" withType:@"caf"];
     [self saveCountData];
 }
 
 - (void)updateUI{
     if ([title.text isEqualToString:@""]) {
         [title becomeFirstResponder];
+        self.count = 0;
         return;
     }
     [countLabel setText:[NSString stringWithFormat:@"%lu", (unsigned long)self.count]];

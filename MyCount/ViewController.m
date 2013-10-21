@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 #import "UIColor+iOS7Colors.h"
+#import "CustomizedSettingTransition.h"
+#import "AudioUtility.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIViewControllerTransitioningDelegate>
 
 @end
 
@@ -24,6 +26,18 @@
     self.reduceBtn.tintColor = [UIColor iOS7orangeColor];
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    self.addBtn.tintColor = [UIColor systemColor];
+    self.reduceBtn.tintColor = [UIColor systemColor];
+    
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -36,6 +50,28 @@
 
 - (IBAction)reduce:(id)sender{
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ReduceNft" object:nil];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"showSetting"]) {
+        UIViewController *dvc = segue.destinationViewController;
+        dvc.transitioningDelegate = self;
+        
+        [[AudioUtility sharedInstance] playSound:@"up" withType:@"caf"];
+
+    }
+}
+
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source{
+
+    CustomizedSettingTransition *t = [[CustomizedSettingTransition alloc] init];
+    t.presenting = YES;
+    return t;
+}
+
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{
+    CustomizedSettingTransition *t = [[CustomizedSettingTransition alloc] init];
+    return t;
 }
 
 @end
