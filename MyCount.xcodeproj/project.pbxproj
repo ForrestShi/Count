@@ -25,6 +25,9 @@
 		1815BB3518141C1800654ECC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2918141C1800654ECC /* Icon@2x.png */; };
 		1815BB3618141C1800654ECC /* Icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2A18141C1800654ECC /* Icon512.png */; };
 		1815BB3718141C1800654ECC /* Icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2B18141C1800654ECC /* Icon1024.png */; };
+		1888FCD3181555D400D147BC /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1888FCD2181555D400D147BC /* libFlurry_4.2.4.a */; };
+		1888FCD51815564C00D147BC /* swipe_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1888FCD41815564C00D147BC /* swipe_up.png */; };
+		1888FCD71815578600D147BC /* swipe_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 1888FCD61815578600D147BC /* swipe_down.png */; };
 		18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E41D18123E93007DB44A /* AudioUtility.m */; };
 		18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B1E41F18123F18007DB44A /* AudioToolbox.framework */; };
 		18B1E4221812404D007DB44A /* count.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E4211812404D007DB44A /* count.wav */; };
@@ -40,14 +43,11 @@
 		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
 		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
 		CD49034818110B4B0012A7D3 /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */; };
-		CD596BB618151FCD0094B0EF /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */; };
 		CD596BB8181520A90094B0EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BB7181520A90094B0EF /* SystemConfiguration.framework */; };
 		CD596BBA181520AF0094B0EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BB9181520AF0094B0EF /* Security.framework */; };
 		CD596BBC181520BD0094B0EF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BBB181520BD0094B0EF /* AdSupport.framework */; };
-		CD596BC1181522150094B0EF /* libFlurryAds_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */; };
 		CD596BC618152D090094B0EF /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD596BC318152D090094B0EF /* iRate.bundle */; };
 		CD596BC718152D090094B0EF /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD596BC518152D090094B0EF /* iRate.m */; };
-		CD596BC9181536AE0094B0EF /* swipup.png in Resources */ = {isa = PBXBuildFile; fileRef = CD596BC8181536AD0094B0EF /* swipup.png */; };
 		CDA3EC0A1809453500990E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC091809453500990E7D /* Foundation.framework */; };
 		CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0B1809453500990E7D /* CoreGraphics.framework */; };
 		CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0D1809453500990E7D /* UIKit.framework */; };
@@ -94,6 +94,10 @@
 		1815BB2918141C1800654ECC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		1815BB2A18141C1800654ECC /* Icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon512.png; sourceTree = "<group>"; };
 		1815BB2B18141C1800654ECC /* Icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1024.png; sourceTree = "<group>"; };
+		1888FCD1181555D400D147BC /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		1888FCD2181555D400D147BC /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.4.a; sourceTree = "<group>"; };
+		1888FCD41815564C00D147BC /* swipe_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_up.png; sourceTree = "<group>"; };
+		1888FCD61815578600D147BC /* swipe_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_down.png; sourceTree = "<group>"; };
 		18B1E41C18123E93007DB44A /* AudioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtility.h; sourceTree = "<group>"; };
 		18B1E41D18123E93007DB44A /* AudioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUtility.m; sourceTree = "<group>"; };
 		18B1E41F18123F18007DB44A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -116,18 +120,12 @@
 		CD490344180FC7BE0012A7D3 /* mycount.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mycount.entitlements; path = mycount/mycount.entitlements; sourceTree = "<group>"; };
 		CD49034618110B4B0012A7D3 /* UIColor+iOS7Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7Colors.h"; sourceTree = "<group>"; };
 		CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7Colors.m"; sourceTree = "<group>"; };
-		CD596BB418151FCD0094B0EF /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = SOURCE_ROOT; };
-		CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.2.4.a; path = Flurry/libFlurry_4.2.4.a; sourceTree = SOURCE_ROOT; };
 		CD596BB7181520A90094B0EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CD596BB9181520AF0094B0EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CD596BBB181520BD0094B0EF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		CD596BBE181522150094B0EF /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
-		CD596BBF181522150094B0EF /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
-		CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_4.2.4.a; sourceTree = "<group>"; };
 		CD596BC318152D090094B0EF /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
 		CD596BC418152D090094B0EF /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
 		CD596BC518152D090094B0EF /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
-		CD596BC8181536AD0094B0EF /* swipup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swipup.png; path = ../../../../Desktop/swipup.png; sourceTree = "<group>"; };
 		CDA3EC061809453500990E7D /* InstaCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA3EC091809453500990E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDA3EC0B1809453500990E7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -158,12 +156,11 @@
 			files = (
 				CD596BBC181520BD0094B0EF /* AdSupport.framework in Frameworks */,
 				CD596BBA181520AF0094B0EF /* Security.framework in Frameworks */,
+				1888FCD3181555D400D147BC /* libFlurry_4.2.4.a in Frameworks */,
 				CD596BB8181520A90094B0EF /* SystemConfiguration.framework in Frameworks */,
 				18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */,
 				CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */,
 				CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */,
-				CD596BC1181522150094B0EF /* libFlurryAds_4.2.4.a in Frameworks */,
-				CD596BB618151FCD0094B0EF /* libFlurry_4.2.4.a in Frameworks */,
 				CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */,
 				CDA3EC0A1809453500990E7D /* Foundation.framework in Frameworks */,
 			);
@@ -221,15 +218,14 @@
 			name = audios;
 			sourceTree = "<group>";
 		};
-		CD596BBD181522150094B0EF /* FlurryAds */ = {
+		1888FCD0181555D400D147BC /* Flurry */ = {
 			isa = PBXGroup;
 			children = (
-				CD596BBE181522150094B0EF /* FlurryAdDelegate.h */,
-				CD596BBF181522150094B0EF /* FlurryAds.h */,
-				CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */,
+				1888FCD1181555D400D147BC /* Flurry.h */,
+				1888FCD2181555D400D147BC /* libFlurry_4.2.4.a */,
 			);
-			path = FlurryAds;
-			sourceTree = SOURCE_ROOT;
+			path = Flurry;
+			sourceTree = "<group>";
 		};
 		CD596BC218152D090094B0EF /* iRate */ = {
 			isa = PBXGroup;
@@ -310,10 +306,9 @@
 		CDA3EC101809453500990E7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD596BC8181536AD0094B0EF /* swipup.png */,
-				CD596BBD181522150094B0EF /* FlurryAds */,
-				CD596BB418151FCD0094B0EF /* Flurry.h */,
-				CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */,
+				1888FCD61815578600D147BC /* swipe_down.png */,
+				1888FCD41815564C00D147BC /* swipe_up.png */,
+				1888FCD0181555D400D147BC /* Flurry */,
 				1815BB3818141C2200654ECC /* Icons */,
 				1815BB3918141C3500654ECC /* audios */,
 				CDA3EC111809453500990E7D /* MyCount-Info.plist */,
@@ -443,15 +438,16 @@
 				18B1E42C18124677007DB44A /* commit.caf in Resources */,
 				1815BB2D18141C1800654ECC /* Icon-72.png in Resources */,
 				1815BB3118141C1800654ECC /* Icon-Small-50.png in Resources */,
+				1888FCD51815564C00D147BC /* swipe_up.png in Resources */,
 				18B1E425181241E5007DB44A /* reduce.wav in Resources */,
 				1815BB2E18141C1800654ECC /* Icon-72@2x.png in Resources */,
 				CD596BC618152D090094B0EF /* iRate.bundle in Resources */,
 				1815BB1B1814148E00654ECC /* c1.caf in Resources */,
+				1888FCD71815578600D147BC /* swipe_down.png in Resources */,
 				1815BB2C18141C1800654ECC /* Icon-58.png in Resources */,
 				1815BB2F18141C1800654ECC /* Icon-80.png in Resources */,
 				18B1E4221812404D007DB44A /* count.wav in Resources */,
 				18B1E42E181247FF007DB44A /* Tap.caf in Resources */,
-				CD596BC9181536AE0094B0EF /* swipup.png in Resources */,
 				1815BB3318141C1800654ECC /* Icon-Small@2x.png in Resources */,
 				CDA3EC1D1809453500990E7D /* Main.storyboard in Resources */,
 				1815BB3618141C1800654ECC /* Icon512.png in Resources */,
@@ -624,9 +620,10 @@
 					"$(inherited)",
 					/Users/shilin/workspace/myIdeas/MyCount/Flurry,
 					/Users/shilin/workspace/myIdeas/MyCount/FlurryAds,
+					/Users/apple/workspace/2013Prototype/Count/MyCount/Flurry,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "FEEA5B95-DD75-4AC9-A7E7-6ACD0D8E6B64";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -638,8 +635,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = mycount/mycount.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shi Lin";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
@@ -648,9 +645,10 @@
 					"$(inherited)",
 					/Users/shilin/workspace/myIdeas/MyCount/Flurry,
 					/Users/shilin/workspace/myIdeas/MyCount/FlurryAds,
+					/Users/apple/workspace/2013Prototype/Count/MyCount/Flurry,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "FEEA5B95-DD75-4AC9-A7E7-6ACD0D8E6B64";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};

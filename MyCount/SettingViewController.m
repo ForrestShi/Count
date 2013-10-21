@@ -45,6 +45,41 @@
     UISwipeGestureRecognizer *swipDown = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipDown)];
     swipDown.direction = UISwipeGestureRecognizerDirectionDown;
     [self.view addGestureRecognizer:swipDown];
+    
+    
+    BOOL showTip = [[NSUserDefaults standardUserDefaults] boolForKey:@"tipSetting"];
+    if (!showTip) {
+        UIImageView *tipView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+        tipView.backgroundColor = [UIColor blackColor];
+        tipView.alpha = .8;
+        
+        tipView.contentMode = UIViewContentModeCenter | UIViewContentModeScaleAspectFill;
+        tipView.image = [UIImage imageNamed:@"swipe_down.png"];
+        
+        [self.view addSubview:tipView];
+        
+        double delayInSeconds = 1.5;
+        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+            [UIView animateWithDuration:.8 animations:^{
+                //
+                tipView.transform = CGAffineTransformTranslate(tipView.transform, 0, 200);
+            } completion:^(BOOL finished) {
+                [UIView animateWithDuration:.7 animations:^{
+                    tipView.alpha = 0.;
+                } completion:^(BOOL finished) {
+                    [tipView removeFromSuperview];
+                }];
+            }];
+            
+        });
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"tipSetting"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    
+
+    
 }
 
 - (BOOL)prefersStatusBarHidden

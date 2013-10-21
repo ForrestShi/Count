@@ -27,21 +27,27 @@
     
     UIImageView *tipView = [[UIImageView alloc] initWithFrame:self.view.bounds];
     tipView.backgroundColor = [UIColor blackColor];
-    tipView.alpha = .5;
+    tipView.alpha = .7;
     
     tipView.contentMode = UIViewContentModeCenter | UIViewContentModeScaleAspectFill;
-    tipView.image = [UIImage imageNamed:@"swipup.png"];
+    tipView.image = [UIImage imageNamed:@"swipe_up.png"];
     
     [self.view addSubview:tipView];
     
-    double delayInSeconds = 3.0;
+    double delayInSeconds = 1.5;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        [UIView animateWithDuration:.7 animations:^{
-            tipView.alpha = 0.;
+        [UIView animateWithDuration:.8 animations:^{
+            //
+            tipView.transform = CGAffineTransformTranslate(tipView.transform, 0, -200);
         } completion:^(BOOL finished) {
-            [tipView removeFromSuperview];
+            [UIView animateWithDuration:.7 animations:^{
+                tipView.alpha = 0.;
+            } completion:^(BOOL finished) {
+                [tipView removeFromSuperview];
+            }];
         }];
+      
     });
 }
 
