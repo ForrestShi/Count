@@ -11,6 +11,11 @@
 		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
 		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
 		CD49034818110B4B0012A7D3 /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */; };
+		CD596BB618151FCD0094B0EF /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */; };
+		CD596BB8181520A90094B0EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BB7181520A90094B0EF /* SystemConfiguration.framework */; };
+		CD596BBA181520AF0094B0EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BB9181520AF0094B0EF /* Security.framework */; };
+		CD596BBC181520BD0094B0EF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BBB181520BD0094B0EF /* AdSupport.framework */; };
+		CD596BC1181522150094B0EF /* libFlurryAds_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */; };
 		CDA3EC0A1809453500990E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC091809453500990E7D /* Foundation.framework */; };
 		CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0B1809453500990E7D /* CoreGraphics.framework */; };
 		CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA3EC0D1809453500990E7D /* UIKit.framework */; };
@@ -47,6 +52,14 @@
 		CD490344180FC7BE0012A7D3 /* mycount.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mycount.entitlements; path = mycount/mycount.entitlements; sourceTree = "<group>"; };
 		CD49034618110B4B0012A7D3 /* UIColor+iOS7Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7Colors.h"; sourceTree = "<group>"; };
 		CD49034718110B4B0012A7D3 /* UIColor+iOS7Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7Colors.m"; sourceTree = "<group>"; };
+		CD596BB418151FCD0094B0EF /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = SOURCE_ROOT; };
+		CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.2.4.a; path = Flurry/libFlurry_4.2.4.a; sourceTree = SOURCE_ROOT; };
+		CD596BB7181520A90094B0EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD596BB9181520AF0094B0EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CD596BBB181520BD0094B0EF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CD596BBE181522150094B0EF /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		CD596BBF181522150094B0EF /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_4.2.4.a; sourceTree = "<group>"; };
 		CDA3EC061809453500990E7D /* mycount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA3EC091809453500990E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDA3EC0B1809453500990E7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,8 +88,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD596BBC181520BD0094B0EF /* AdSupport.framework in Frameworks */,
+				CD596BBA181520AF0094B0EF /* Security.framework in Frameworks */,
+				CD596BB8181520A90094B0EF /* SystemConfiguration.framework in Frameworks */,
 				CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */,
 				CDA3EC0C1809453500990E7D /* CoreGraphics.framework in Frameworks */,
+				CD596BC1181522150094B0EF /* libFlurryAds_4.2.4.a in Frameworks */,
+				CD596BB618151FCD0094B0EF /* libFlurry_4.2.4.a in Frameworks */,
 				CDA3EC0E1809453500990E7D /* UIKit.framework in Frameworks */,
 				CDA3EC0A1809453500990E7D /* Foundation.framework in Frameworks */,
 			);
@@ -95,6 +113,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD596BBD181522150094B0EF /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				CD596BBE181522150094B0EF /* FlurryAdDelegate.h */,
+				CD596BBF181522150094B0EF /* FlurryAds.h */,
+				CD596BC0181522150094B0EF /* libFlurryAds_4.2.4.a */,
+			);
+			path = FlurryAds;
+			sourceTree = SOURCE_ROOT;
+		};
 		CDA3EBFD1809453500990E7D = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +146,9 @@
 		CDA3EC081809453500990E7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD596BBB181520BD0094B0EF /* AdSupport.framework */,
+				CD596BB9181520AF0094B0EF /* Security.framework */,
+				CD596BB7181520A90094B0EF /* SystemConfiguration.framework */,
 				CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */,
 				CDA3EC091809453500990E7D /* Foundation.framework */,
 				CDA3EC0B1809453500990E7D /* CoreGraphics.framework */,
@@ -152,6 +183,9 @@
 		CDA3EC101809453500990E7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD596BBD181522150094B0EF /* FlurryAds */,
+				CD596BB418151FCD0094B0EF /* Flurry.h */,
+				CD596BB518151FCD0094B0EF /* libFlurry_4.2.4.a */,
 				CDA3EC111809453500990E7D /* MyCount-Info.plist */,
 				CDA3EC121809453500990E7D /* InfoPlist.strings */,
 				CDA3EC151809453500990E7D /* main.m */,
@@ -416,7 +450,7 @@
 		CDA3EC391809453500990E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = mycount/mycount.entitlements;
@@ -426,9 +460,14 @@
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shilin/workspace/myIdeas/MyCount/Flurry,
+					/Users/shilin/workspace/myIdeas/MyCount/FlurryAds,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "C1453D51-203D-472F-BA83-413EAC086914";
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -436,7 +475,7 @@
 		CDA3EC3A1809453500990E7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = mycount/mycount.entitlements;
@@ -446,9 +485,14 @@
 				GCC_PREFIX_HEADER = "MyCount/MyCount-Prefix.pch";
 				INFOPLIST_FILE = "MyCount/MyCount-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shilin/workspace/myIdeas/MyCount/Flurry,
+					/Users/shilin/workspace/myIdeas/MyCount/FlurryAds,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "C1453D51-203D-472F-BA83-413EAC086914";
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

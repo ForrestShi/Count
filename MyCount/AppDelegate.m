@@ -8,11 +8,17 @@
 
 #import "AppDelegate.h"
 #import "MKiCloudSync.h"
+#import "Flurry.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Flurry setCrashReportingEnabled:YES];
+    //note: iOS only allows one crash reporting tool per app; if using another, set to: NO
+    [Flurry startSession:@"ZGFP3X6YF97FDFKQXGWP"];
+    
     // Override point for customization after application launch.
     [MKiCloudSync start];
     return YES;
