@@ -9,7 +9,7 @@
 #import "OnePageViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "UIColor+iOS7Colors.h"
-
+#import "Flurry.h"
 
 @interface OnePageViewController ()<UITextFieldDelegate>{
     UITextField *title ;
@@ -135,6 +135,14 @@
     }
     [countLabel setText:[NSString stringWithFormat:@"%lu", (unsigned long)self.count]];
     [self saveCountData];
+    
+    NSDictionary *articleParams = [NSDictionary dictionaryWithObjectsAndKeys:
+     title.text, @"Topic",
+     countLabel.text, @"Count",
+     nil];
+    
+    [Flurry logEvent:@"Count" withParameters:articleParams];
+    
 }
 
 - (void)readCountData{
