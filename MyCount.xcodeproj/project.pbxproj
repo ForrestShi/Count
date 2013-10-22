@@ -25,7 +25,6 @@
 		1815BB3518141C1800654ECC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2918141C1800654ECC /* Icon@2x.png */; };
 		1815BB3618141C1800654ECC /* Icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2A18141C1800654ECC /* Icon512.png */; };
 		1815BB3718141C1800654ECC /* Icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815BB2B18141C1800654ECC /* Icon1024.png */; };
-		1888FCD3181555D400D147BC /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1888FCD2181555D400D147BC /* libFlurry_4.2.4.a */; };
 		1888FCD51815564C00D147BC /* swipe_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1888FCD41815564C00D147BC /* swipe_up.png */; };
 		1888FCD71815578600D147BC /* swipe_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 1888FCD61815578600D147BC /* swipe_down.png */; };
 		18B1E41E18123E93007DB44A /* AudioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E41D18123E93007DB44A /* AudioUtility.m */; };
@@ -39,6 +38,7 @@
 		18B1E42E181247FF007DB44A /* Tap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E42D181247FF007DB44A /* Tap.caf */; };
 		18B1E4361812AA3A007DB44A /* CustomizedSettingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */; };
 		18B1E4391812AC96007DB44A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E4381812AC96007DB44A /* SettingViewController.m */; };
+		CD0DADB6181618B600B9E702 /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0DADB5181618B600B9E702 /* libFlurry_4.2.4.a */; };
 		CD120AE0180BCCBA00B6EE63 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */; };
 		CD120AE3180BCD6500B6EE63 /* OnePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD120AE2180BCD6500B6EE63 /* OnePageViewController.m */; };
 		CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD120AEF180D23FF00B6EE63 /* QuartzCore.framework */; };
@@ -94,8 +94,6 @@
 		1815BB2918141C1800654ECC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		1815BB2A18141C1800654ECC /* Icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon512.png; sourceTree = "<group>"; };
 		1815BB2B18141C1800654ECC /* Icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1024.png; sourceTree = "<group>"; };
-		1888FCD1181555D400D147BC /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		1888FCD2181555D400D147BC /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.4.a; sourceTree = "<group>"; };
 		1888FCD41815564C00D147BC /* swipe_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_up.png; sourceTree = "<group>"; };
 		1888FCD61815578600D147BC /* swipe_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_down.png; sourceTree = "<group>"; };
 		18B1E41C18123E93007DB44A /* AudioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtility.h; sourceTree = "<group>"; };
@@ -112,6 +110,8 @@
 		18B1E4351812AA3A007DB44A /* CustomizedSettingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomizedSettingTransition.m; path = ../CustomizedSettingTransition.m; sourceTree = "<group>"; };
 		18B1E4371812AC96007DB44A /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		18B1E4381812AC96007DB44A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		CD0DADB4181618B600B9E702 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		CD0DADB5181618B600B9E702 /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.4.a; sourceTree = "<group>"; };
 		CD120ADE180BCCBA00B6EE63 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
 		CD120ADF180BCCBA00B6EE63 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
 		CD120AE1180BCD6500B6EE63 /* OnePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePageViewController.h; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 			files = (
 				CD596BBC181520BD0094B0EF /* AdSupport.framework in Frameworks */,
 				CD596BBA181520AF0094B0EF /* Security.framework in Frameworks */,
-				1888FCD3181555D400D147BC /* libFlurry_4.2.4.a in Frameworks */,
+				CD0DADB6181618B600B9E702 /* libFlurry_4.2.4.a in Frameworks */,
 				CD596BB8181520A90094B0EF /* SystemConfiguration.framework in Frameworks */,
 				18B1E42018123F18007DB44A /* AudioToolbox.framework in Frameworks */,
 				CD120AF0180D23FF00B6EE63 /* QuartzCore.framework in Frameworks */,
@@ -218,11 +218,11 @@
 			name = audios;
 			sourceTree = "<group>";
 		};
-		1888FCD0181555D400D147BC /* Flurry */ = {
+		CD0DADB3181618B600B9E702 /* Flurry */ = {
 			isa = PBXGroup;
 			children = (
-				1888FCD1181555D400D147BC /* Flurry.h */,
-				1888FCD2181555D400D147BC /* libFlurry_4.2.4.a */,
+				CD0DADB4181618B600B9E702 /* Flurry.h */,
+				CD0DADB5181618B600B9E702 /* libFlurry_4.2.4.a */,
 			);
 			path = Flurry;
 			sourceTree = "<group>";
@@ -306,9 +306,9 @@
 		CDA3EC101809453500990E7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD0DADB3181618B600B9E702 /* Flurry */,
 				1888FCD61815578600D147BC /* swipe_down.png */,
 				1888FCD41815564C00D147BC /* swipe_up.png */,
-				1888FCD0181555D400D147BC /* Flurry */,
 				1815BB3818141C2200654ECC /* Icons */,
 				1815BB3918141C3500654ECC /* audios */,
 				CDA3EC111809453500990E7D /* MyCount-Info.plist */,
@@ -621,6 +621,7 @@
 					/Users/shilin/workspace/myIdeas/MyCount/Flurry,
 					/Users/shilin/workspace/myIdeas/MyCount/FlurryAds,
 					/Users/apple/workspace/2013Prototype/Count/MyCount/Flurry,
+					/Users/shilin/workspace/myIdeas/MyCount/MyCount/Flurry,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "FEEA5B95-DD75-4AC9-A7E7-6ACD0D8E6B64";
@@ -646,6 +647,7 @@
 					/Users/shilin/workspace/myIdeas/MyCount/Flurry,
 					/Users/shilin/workspace/myIdeas/MyCount/FlurryAds,
 					/Users/apple/workspace/2013Prototype/Count/MyCount/Flurry,
+					/Users/shilin/workspace/myIdeas/MyCount/MyCount/Flurry,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "FEEA5B95-DD75-4AC9-A7E7-6ACD0D8E6B64";
